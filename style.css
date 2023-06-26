@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Inter:wght@200;300;400&family=Lily+Script+One&family=Monomaniac+One&family=Montserrat:ital,wght@0,300;0,400;1,400&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter'; sans-serif;
+    text-decoration: none;
+    cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/9y1AP/06AD/3roAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAADAwMjAwMAAAAAAAAAAAAAACAAMAAgAAAAAAAAAAAAAAMDACADAwAAAAAAAAAAAAAAACAwIAAAAAAAAAAAAAAAAwADMwADAAAAAAAAAAAAADIyMyMyMjAAAAAAAAAAAAADAAMzAAMAAAAAAAAAAAAAAAAgMCAAAAAAAAAAAAAAAAMDACADAwAAAAAAAAAAAAAAIAAwACAAAAAAAAAAAAAAAwMAMAMDAAAAAAAAAAAAAQAAAyMAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAAAAAAACEgAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////7////UV///7u///9bX///6v///3Hf//4AD///cd///+r///9bX///u7///1tf//3x///9+////H////w=='), auto;
+}
+
+header {
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4b93bf;
+    color: #ffffff;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15vw;
+}
+
+header img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+h1:hover {
+    color: #E4EEF1;
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 40vw;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+    position: relative;
+}
+
+nav a::after {
+    content: " ";
+    width: 0;
+    height: 2px;
+    background: #E4EEF1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+header a:hover::after {
+    width: 100%;
+}
+
+.apresentacaoInverno {
+    background-color: #E4EEF1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+}
+
+.apresentacaoInverno p {
+    width: 620px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0F468C;
+}
+
+.apresentacaoInverno strong {
+    font-weight: 300;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.invernoBrasil {
+    height: 262px;
+    background-color: #4b93bf;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.invernoBrasil h2 {
+    width: 585px;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.ursosPolares {
+    background-color: #c5e5ef;
+}
+
+.ursosPolares figure {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img:hover {
+    transform: scale(115%);
+    filter: blur(0.2px);
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #4b93bf;
+}
+
+#redesSociais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nomes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.nomes a {
+    color: #ffffff;
+}
+
+.nomes a:hover {
+    color: #d1dbe3;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+}
